@@ -12,9 +12,9 @@ This tutorial demonstrates several AI agent scripts using the [Agno](https://git
 
 ## Main Files
 - `Basic Agents/agent_memory.py`: Main script for the Thai cuisine expert agent. Loads a PDF of Thai recipes into a vector database and answers questions using both the knowledge base and web search.
-- `Basic Agents/multiple_agents.py`: Demonstrates a team of agents (web search and finance) collaborating to answer complex queries, such as comparing stock prices.
-- `Basic Agents/simpleagent.py`: Minimal example of an agent using Groq LLM and DuckDuckGo web search.
-- `Basic Agents/tmp/lancedb/`: Storage location for the LanceDB vector database used by `agent_memory.py`. No need to edit or commit these files.
+- `Agents/multiple_agents.py`: Demonstrates a team of agents (web search and finance) collaborating to answer complex queries, such as comparing stock prices.
+- `Agents/simpleagent.py`: Minimal example of an agent using Groq LLM and DuckDuckGo web search.
+- `Agents/tmp/lancedb/`: Storage location for the LanceDB vector database used by `agent_memory.py`. No need to edit or commit these files.
 - `requirements.txt`: Python dependencies for the tutorial.
 - `.env.example`: Sample environment variable file (see below).
 - `LICENSE`: MIT License for this tutorial.
@@ -30,15 +30,15 @@ This tutorial demonstrates several AI agent scripts using the [Agno](https://git
 4. **Run the scripts**:
    - Thai cuisine expert:
      ```bash
-     python Basic\ Agents/agent_memory.py
+     python Agents/agent_memory.py
      ```
    - Multi-agent demo:
      ```bash
-     python Basic\ Agents/multiple_agents.py
+     python Agents/multiple_agents.py
      ```
    - Simple agent demo:
      ```bash
-     python Basic\ Agents/simpleagent.py
+     python Agents/simpleagent.py
      ```
 
 ## Environment Variables
